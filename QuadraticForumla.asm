@@ -260,7 +260,7 @@ PROC check_under_root
        add al,bl
        
        
-       cmp al,100 ;flag to check if negetive
+       cmp al,100 ;flag to check if negative
        jna aftersub
        sub:
            mov cl,255
